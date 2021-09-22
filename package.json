@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/vandobkdn/newtech-human-resource-app/",
   "name": "web-human-resource-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vandobkdn.github.io/newtech-human-resource-app/",
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
     "@testing-library/jest-dom": "^5.11.4",
