@@ -6,6 +6,7 @@ import {
   MailOutlined,
 } from '@ant-design/icons';
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const { SubMenu } = Menu;
 
@@ -15,25 +16,25 @@ export const Menus = () => {
       <SubMenu icon={<AppstoreOutlined />}>
         <Menu.ItemGroup title={i18next.t('menu.labels.accounts.account')}>
           <Menu.Item key="accountInfo">
-            <a href="/newtech-human-resource-app/register-account">
+            <Link to="/register-account">
               {i18next.t('menu.labels.accounts.subs.accountInfo')}
-            </a>
+            </Link>
           </Menu.Item>
           <Menu.Item key="registerAccount">
-            <a href="/newtech-human-resource-app/register-account">
+            <Link to="/register-account">
               {i18next.t('menu.labels.accounts.subs.registerAccount')}
-            </a>
+            </Link>
           </Menu.Item>
         </Menu.ItemGroup>
         <Menu.Item key="projectBE">
-          <a href="/newtech-human-resource-app/project-be">
+          <Link to="/project-be">
             {i18next.t('menu.labels.projectBE')}
-          </a>
+          </Link>
         </Menu.Item>
         <Menu.Item key="masterList">
-          <a href="/newtech-human-resource-app/master-list">
+          <Link to="/master-list">
             {i18next.t('menu.labels.masterList')}
-          </a>
+          </Link>
         </Menu.Item>
       </SubMenu>
       <SubMenu key="sub1" icon={<MailOutlined />}>
