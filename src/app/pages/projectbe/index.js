@@ -1,14 +1,14 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import { Tabs } from 'antd';
-import { InformationForm } from '../../forms/project-be-detail/information';
+import { RegisterAccountForm } from '../../forms/dashboard/register-account';
 
 const { TabPane } = Tabs;
 
 const ProjectBE = () => {
   return (<Tabs onChange={() => ({})} type="card">
     <TabPane tab="Information" key="1">
-      <InformationForm />
+      <RegisterAccountForm />
     </TabPane>
     <TabPane tab="Schedule" key="2">
       {/*<Habit />*/}

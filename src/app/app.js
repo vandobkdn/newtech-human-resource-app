@@ -9,7 +9,7 @@ export function App() {
   return (
     <Router basename="/newtech-human-resource-app">
       <RouteSwitch>
-       {/*<Route path="/" exact render={() => <Redirect to="/register-account" />} />*/}
+       <Route path="/" exact render={() => <Redirect to="/register-account" />} />
         {Routes.map(({ path, Component, exact, breadcrumb }) => (
           <Route
             path={path}

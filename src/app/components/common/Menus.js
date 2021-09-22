@@ -5,40 +5,36 @@ import {
   SettingOutlined,
   MailOutlined,
 } from '@ant-design/icons';
-import { Redirect } from 'react-router-dom';
 import React from 'react';
 
 const { SubMenu } = Menu;
 
 export const Menus = () => {
-  const handleRouting = {
-    accountInfo: () => {
-      return <Redirect to="/login" />;
-    },
-    registerAccount: () => ({
-
-    }),
-    projectBE: () => ({
-
-    }),
-    masterList: () => ({
-
-    }),
-  };
-  const handleClick = ({ key }) => {
-    handleRouting[key]();
-  };
-
   return (
-    <Menu onClick={handleClick} mode="vertical">
+    <Menu onClick={() => ({})} mode="vertical">
       <SubMenu icon={<AppstoreOutlined />}>
         <Menu.ItemGroup title={i18next.t('menu.labels.accounts.account')}>
-          <Menu.Item key="accountInfo">{i18next.t('menu.labels.accounts.subs.accountInfo')}</Menu.Item>
-          <Menu.Item key="registerAccount">{i18next.t('menu.labels.accounts.subs.registerAccount')}</Menu.Item>
+          <Menu.Item key="accountInfo">
+            <a href="/register-account">
+              {i18next.t('menu.labels.accounts.subs.accountInfo')}
+            </a>
+          </Menu.Item>
+          <Menu.Item key="registerAccount">
+            <a href="/register-account">
+              {i18next.t('menu.labels.accounts.subs.registerAccount')}
+            </a>
+          </Menu.Item>
         </Menu.ItemGroup>
-        <Menu.Item key="projectBE">{i18next.t('menu.labels.projectBE')}</Menu.Item>
-        <Menu.Item key="masterList">{i18next.t('menu.labels.masterList')}</Menu.Item>
-
+        <Menu.Item key="projectBE">
+          <a href="/project-be">
+            {i18next.t('menu.labels.projectBE')}
+          </a>
+        </Menu.Item>
+        <Menu.Item key="masterList">
+          <a href="/master-list">
+            {i18next.t('menu.labels.masterList')}
+          </a>
+        </Menu.Item>
       </SubMenu>
       <SubMenu key="sub1" icon={<MailOutlined />}>
         <Menu.ItemGroup title="Item 1">
