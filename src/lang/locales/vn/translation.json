@@ -1,0 +1,127 @@
+{
+  "routes": {
+    "breadcrumbs": {
+      "registerAccount": "Đăng ký tài khoản",
+      "projectBE": "Dự án",
+      "masterList": "Danh sách đề tài"
+    }
+  },
+  "menu": {
+    "labels": {
+      "accounts": {
+        "account": "Tại khoản",
+        "subs": {
+          "accountInfo": "Thông tin tài khoản",
+          "registerAccount": "Đăng ký tài khoản"
+        }
+      },
+      "projectBE": "Dự án",
+      "masterList": "Danh sách đề tài"
+    }
+  },
+  "pages": {
+    "dashboard": {
+      "tabs": {
+        "information": "Thông tin",
+        "habit": "Sở thích",
+        "projectBE": "Dự án",
+        "notification": "Thông báo"
+      }
+    },
+    "masterList": {}
+  },
+  "forms": {
+    "dashboard": {
+      "registerAccount": {
+        "labels": {
+          "name": "Tên",
+          "middleName": "Tên đệm",
+          "lastName": "Họ",
+          "gender": "Giới tính",
+          "male": "Nam",
+          "female": "Nữ",
+          "identificationNumber": "Số chứng minh thư",
+          "birthDate": "Ngày sinh",
+          "birthPlace": "Nơi sinh",
+          "address": "Địa chỉ",
+          "cellPhone": "Điện thoại di động",
+          "homePhone": "Điện thoại nhà",
+          "email": "Địa chỉ Email",
+          "profession": "Chức danh",
+          "height": "Chiều cao",
+          "weight": "Cân nặng",
+          "bmi": "Chỉ số BMI",
+          "upload1": "Thêm ảnh cá nhân",
+          "upload2": "Mặt A giấy chứng minh thư",
+          "upload3": "Mặt B giấy chứng minh thư",
+          "headers": {
+            "generalInfo": "Thông tin chung"
+          },
+          "buttons": {
+            "submit": "Gửi",
+            "clear": "Xóa",
+            "cancel": "Hủy"
+          },
+          "validates": {
+            "required": "Vui lòng điền vào chỗ trống!"
+          }
+        }
+      },
+      "habit": {
+        "labels": {
+          "smoking": {
+            "label": "Hút thuốc",
+            "option1": "Không",
+            "option2": "Có, 1-20 điếu/tuần",
+            "option3": "Có, trên 20 điếu/tuần",
+            "option4": "Có nhưng đã bỏ trong 3 tháng",
+            "option5": "Có nhưng đã bỏ hơn 3 tháng"
+          },
+          "drink": {
+            "label": "Uống rượu",
+            "option1": "Không",
+            "option2": "Có",
+            "option3": "Có, >300 mL/ngày",
+            "option4": "Có, <300 mL/ngày"
+          },
+          "others": {
+            "label": "Sử dụng chất gây nghiện, hướng thần kinh hoặc tiền sử dụng chất gây nghiện, hướng thần kinh",
+            "option1": "Không",
+            "option2": "Có"
+          },
+          "buttons": {
+            "submit": "Gửi",
+            "clear": "Xóa",
+            "cancel": "Hủy"
+          },
+          "headers": {
+            "habit": "Sở thích"
+          },
+          "avatar": {
+            "code": "Mã số:"
+          }
+        }
+      },
+      "projectBE": {
+        "labels": {
+          "headers": {
+            "projectList": "Danh sách dự án"
+          },
+          "buttons": {
+            "newProject": "Dự án mới",
+            "joinedProject": "Dự án tham gia"
+          },
+          "columns": {
+            "name": "Tên dự án",
+            "code": "Mã dự án",
+            "beginDate": "Ngày bất đầu",
+            "closeDate": "Ngày đóng",
+            "status": "Tình trạng",
+            "numberOfE": "Số E",
+            "numberOfRegister": "Số người đăng ký"
+          }
+        }
+      }
+    }
+  }
+}
