@@ -15,23 +15,23 @@ export const Menus = () => {
       <SubMenu icon={<AppstoreOutlined />}>
         <Menu.ItemGroup title={i18next.t('menu.labels.accounts.account')}>
           <Menu.Item key="accountInfo">
-            <a href="/register-account">
+            <a href="/newtech-human-resource-app/register-account">
               {i18next.t('menu.labels.accounts.subs.accountInfo')}
             </a>
           </Menu.Item>
           <Menu.Item key="registerAccount">
-            <a href="/register-account">
+            <a href="/newtech-human-resource-app/register-account">
               {i18next.t('menu.labels.accounts.subs.registerAccount')}
             </a>
           </Menu.Item>
         </Menu.ItemGroup>
         <Menu.Item key="projectBE">
-          <a href="/project-be">
+          <a href="/newtech-human-resource-app/project-be">
             {i18next.t('menu.labels.projectBE')}
           </a>
         </Menu.Item>
         <Menu.Item key="masterList">
-          <a href="/master-list">
+          <a href="/newtech-human-resource-app/master-list">
             {i18next.t('menu.labels.masterList')}
           </a>
         </Menu.Item>
